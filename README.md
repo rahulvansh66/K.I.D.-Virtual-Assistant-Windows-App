@@ -14,3 +14,5 @@ A)  Home automation mode: To controls IOT switch board which was programmed usin
 B)  Windows application mode: To control some of windows applications, Voice typing is also supported. <br/>
 C)  Smart Vision mode: Used for real time visual surveillance purpose, based on command it’ll monitor/alert/detect the object in camera. YOLO had been used for live video detection.
 
+![Screenshot](kid_flow.png)
+
