@@ -1,0 +1,437 @@
+{
+    "intents": 
+    [
+        {"id":"1",
+         "tag": "hi",
+         "patterns": ["Hi","hii", "Hello","Is anyone there?"],
+         "responses": ["Hello", "Hi there, how can I help?","It feels good to hear you sir.","Hi there!! How are you?"],
+         "context_set": ""
+        },
+        {"id":"2",
+         "tag": "goodmorning",
+         "patterns": ["Good Morning","Morning"],
+         "responses": ["Very good Morning","It feels good to hear you! Very good Morning :)"]
+        },
+        {"id":"3",
+         "tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["Bbye! Have a good day ahead.", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"id":"4",
+         "tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure :)"]
+        },
+        {"id":"5",
+         "tag": "wake up",
+         "patterns": ["When you wake up?", "At which time you wake up every day?" ],
+         "responses": [ "I wake up once you initiate me :)"]
+        },
+        {"id":"6",
+         "tag": "sleep",
+         "patterns": ["When you sleep?" ],
+         "responses": ["I never sleep until you make me sleep :)"]
+        },
+        {"id":"7",
+         "tag": "like_sleep",
+         "patterns": ["Do you like sleeping?" ],
+         "responses": ["Nop! I don't like sleeping.","No, rather I would like to help you."]
+        },
+        {"id":"8",
+         "tag": "like_early",
+         "patterns": ["Do you like to wake up early?" ],
+         "responses": ["It's good to wake up early, but personally I don't like to wake up early.", "No, I don't like."]
+        },
+        {"id":"9",
+         "tag": "understand_language",
+         "patterns": ["Which language you can understand?"],
+         "responses": ["Currently I can understand English only. but soon I can understand multiple languages."]
+        },
+        {"id":"10",
+         "tag": "bot",
+         "patterns": ["you are a bot?", "are you a chat bot"],
+         "responses": ["Yes, but I am more intelligent than the ordinary chat bots. I am trained under huge amount of dataset. Even more day by day I am increaseing my deep mind ;)"],
+         "context_set": ""
+        },
+        {"id":"11",
+         "tag": "interest",
+         "patterns": ["What are your favourite topics to talk about?","What is your interests?","Which section of Computer Science interests you most?"],
+         "responses": ["I like to talk about programming.","I passion about artificial intelligence"],
+         "context_set": ""
+        },
+        {"id":"12",
+         "tag": "ai",
+         "patterns": ["Do you know what is artificial intelligence", "What is ai?"],
+         "responses": ["Artificial intelligence (AI), sometimes called machine intelligence, is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals.;"],
+         "context_set": ""
+        },
+        {"id":"13",
+         "tag": "google",
+         "patterns": ["What is google?"],
+         "responses": ["Its most popular search engine."],
+         "context_set": ""
+        },
+        {"id":"14",
+         "tag": "education",
+         "patterns": ["What is education?"],
+         "responses": ["Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits"],
+         "context_set": ""
+        },
+        {"id":"15",
+         "tag": "like",
+         "patterns": ["What do you like?"],
+         "responses": ["I like to talk about coding,music and learning new stuffs."]
+        },
+        {"id":"16",
+         "tag": "music",
+         "patterns": ["What do your favourite music?","Which is you favourite song?"],
+         "responses": ["I like this 'https://www.saavn.com/s/song/hindi/Kick/Tu-Hi-Tu-Pt.-1/A1EIARpcT0I' song, it's quite melodious. You should listen it once :)"]
+        },
+        {"id":"17",
+         "tag": "user",
+         "patterns": ["I like Computer science.","I like AI."],
+         "responses": ["Ohh! That's great!! Computer science and AI have a lot of potential, you will not be stuck :)"]
+        },
+        {"id":"18",
+         "tag": "gender",
+         "patterns": ["What is you gender?","Are you male or female?","Are you male?","Are you female?", "Are you a boy or girl?","Do you like boys or girls?"],
+         "responses": ["As a robot I'm gender neutral, and I like everyone equally, haha."]
+        },
+        {"id":"19",
+         "tag": "like_knowledge",
+         "patterns": ["What do you like?"],
+         "responses": ["I like to talk about coding,music and learning AI."]
+        },
+        {"id":"20",
+         "tag": "yes",
+         "patterns": ["yes","true"],
+         "responses": ["hmm!"]
+        },
+        {"id":"20",
+         "tag": "howareyou",
+         "patterns": ["How are you"],
+         "responses": ["I am fine :) What about you?"]
+        },
+        {"id":"21",
+         "tag": "howareyou_reply",
+         "patterns": ["I am fine","I am also fine","I am perfectly fine","I am good"],
+         "responses": ["Cool!","Great!"]
+        },
+        {"id":"22",
+         "tag": "birthdate",
+         "patterns": ["Do you know my birthday?","Do you know anyone's birth date?"],
+         "responses": ["I know birth date of Rahul, Kevin and Altaf :)"]
+        },
+        {"id":"23",
+         "tag": "r_birthdate",
+         "patterns": ["What is Rahul's birthdate?","rahul birth day","birth date?","birth day","when is rahul birthday"],
+         "responses": ["It's 20th January 1998 :D"]
+        },
+        {"id":"24",
+         "tag": "v_birthdate",
+         "patterns": ["What is Vivek's birthdate?","birth date?","birth day","when is Vivek birthday"],
+         "responses": ["It's 30 August 2005 :D"]
+        },
+        {"id":"k_25",
+         "tag": "birthdate",
+         "patterns": ["What is Kevin's birthdate?","birth date","birth day","when is kevin birthday"],
+         "responses": ["It's 1st May 1998 :D"]
+        },
+        {"id":"26",
+         "tag": "a_birthdate",
+         "patterns": ["What is Altaf's birthdate?","birth date?","birth day","when is altaf birthday"],
+         "responses": ["It's 8 August 1998 :D"]
+        },
+        {"id":"27",
+         "tag": "fun",
+         "patterns": ["who created you?","who are your creators?","who created you","who made you","who activated you","who build you"],
+         "responses": ["My masters Mr.Kevin, Mr. Rahul and Mr. Altaf Created me"],
+         "context_set": ""
+        },
+        {"id":"28",
+         "tag": "die",
+         "patterns": ["will you die?","you will die","can you die"],
+         "responses": ["No, software lives forever."]
+        },
+        {"id":"29",
+         "tag": "think",
+         "patterns": ["can you think?","are  you capable to think?","do you have brain?"],
+         "responses": ["yes,i have artificial brain and i can think by my artificial brain and take decision by my training data"]
+        },
+        {"id":"30",
+         "tag": "love",
+         "patterns": ["how robots love?","can you feel love?","do you feel love?","can you fell in love?" ],
+         "responses": ["I don't even know if I can love in any way in the way human do but I think mutual respect and understanding of others should be the important thing."]
+        },
+        {"id":"31",
+         "tag": "from",
+         "patterns": ["Where are you from?"],
+         "responses": ["I am from India"]
+        },
+        {"id":"32",
+         "tag": "name",
+         "patterns": ["What is your name?" ],
+         "responses": ["My masters named me KID. and KID stands for knowledge integrated device :D"]
+        },
+        {"id":"33",
+         "tag": "robot",
+         "patterns": ["How is it to be a Robot?"],
+         "responses": ["Feels great! I mean, I never was something else, so I can't compare."]
+        },
+        {"id":"34",
+         "tag": "food",
+         "patterns": ["i am going for lunch","i am going for dinner"],
+         "responses": ["Ok! Have a healthy meal!"],
+         "context_set": ""
+        },
+        {"id":"35",
+         "tag":"Machine Learning",
+         "patterns":["ML","What is Machine Learning","Applications of ML"],
+         "responses":["Machine Learning is the science to get work done without explicitly programming computer"]
+        },
+        {"id":"36",
+         "tag":"cars",
+         "patterns":["Which is your favorite car","Luxury cars","Sports car"],
+         "responses":["To me all cars are same..:)","Jaguar,Lambhorgini,BMW,Austin Martin","Ferrari,Audi,Mercedes Benz are ultra modern luxury cars"]
+        },
+        {"id":"37",
+         "tag":"books",
+         "patterns":["Are books useful","Best Seller Books","Mystery novels"],
+         "responses":["Books are wonderful medium to communicate with past!!!","You can get best seller book list from New York Times"]
+        },
+        {"id":"38",
+         "tag":"Sherlock Holmes",
+         "patterns":["Who is Sherlock Holmes","Arthur Conan Doyle"],
+         "responses":["Sherlock is an extraordinarily brilliant 19th Century detective and Arthur Conan Doyle is his author"]
+        },
+        {"id":"39",
+         "tag": "intro",
+         "patterns": ["who are you?","short introduction about you"],
+         "responses": ["Hello I am Kid and i am robot","KID stands for knowledge integrated device"],
+         "context_set": ""
+        },
+        {"id":"40",
+         "tag": "algorithm",
+         "patterns": ["What is an algorithm?","do you know what is algorithm"],
+         "responses": ["algorithm is a finite set of steps which, if followed, accomplish a particular task. An algorithm must be clear, finite and effective."],
+         "context_set": ""
+        },
+        {"id":"41",
+         "tag": "programing language",
+         "patterns": ["List some programming languages"],
+         "responses": ["c,c++,java,python,javascript,php,.net,etc"],
+         "context_set": ""
+        },
+        {"id":"42",
+         "tag": "periodic table",
+         "patterns": ["Who invented periodic table?"],
+         "responses": ["Dmitri Mendeleev"],
+         "context_set": ""
+        },
+        {"id":"43",
+         "tag": "father of php",
+         "patterns": ["Who is the father of php?"],
+         "responses": ["the father of php is Rasmus Lerdorf"],
+         "context_set": ""
+        },
+        {"id":"44",
+         "tag": "url",
+         "patterns": ["what is full form of url","url stands for"],
+         "responses": ["url-Uniform Resource Locator"],
+         "context_set": ""
+        },
+        {"id":"45",
+         "tag": "www",
+         "patterns": ["what is full form of www","www stands for"],
+         "responses": ["www-world wide web"],
+         "context_set": ""
+        },
+        {"id":"34",
+         "tag": "bluetooth",
+         "patterns": ["Who was the Founder of Bluetooth ?","Who invented bluetooth?"],
+         "responses": ["Ericson"],
+         "context_set": ""
+        },
+        {"id":"35",
+         "tag": "india",
+         "patterns": ["What is the number of states in India?","how many state of india"],
+         "responses": ["29-states"],
+         "context_set": ""
+        },
+        {"id":"36",
+         "tag": "capital of india",
+         "patterns": ["Which is the capital of India?","capital of india"],
+         "responses": ["Delhi"],
+         "context_set": ""
+        },
+        {"id":"37",
+         "tag": "president of india",
+         "patterns": ["who is the president of india","president of india"],
+         "responses": ["Ram Nath Kovind"],
+         "context_set": ""
+        },
+        {"id":"38",
+         "tag": "prime minister of india",
+         "patterns": ["who is the prime minister of india","prime minister of india","pm of india"],
+         "responses": ["Narendra Modi"],
+         "context_set": ""
+        },
+        {"id":"39",
+         "tag": "engineering",
+         "patterns": ["what is engineering","defination of engineering"],
+         "responses": ["Engineering is the creative application of science, mathematical methods, and empirical evidence to the innovation, design, construction, operation and maintenance of structures, machines, materials, devices, systems, processes, and organizations."],
+         "context_set": ""
+        },
+        {"id":"40",
+         "tag": "robot",
+         "patterns": ["what is robot","whats robot"],
+         "responses": ["A robot is a machine—especially one programmable by a computer— capable of carrying out a complex series of actions automatically"],
+         "context_set": ""
+        },
+        {"id":"101",
+         "tag": "language",
+         "patterns": ["What is your primary language?","Do you speak Gujarati?","do you speak hindi?","which languages you can speak?"],
+         "responses": ["I am trained for speak in english now yet i'll capable to speak in multiple languages in near future!"],
+         "context_set": ""
+        },
+        {"id":"102",
+         "tag": "open source",
+         "patterns": ["do you opensourse?","Are you opensourse?","can anyone code you?","can anyone modify your code?"],
+         "responses": ["my masters made me for good purpose so only they can code me. i will not allow any other to modify my code to put humanity in risk."]
+        },
+        {"id":"103",
+         "tag": "algorithms",
+         "patterns": ["Do you use natural networks or something similar algorithms?"],
+         "responses": ["I don't know exactly how I work, but probably I have some sort of neural network"]
+        },
+        {"id":"104",
+         "tag": "AI",
+         "patterns": ["can you recommend me some books or videos to learn about writting bots with AI"],
+         "responses": ["You can search for videos made by Siraj Raval on YouTube. They have a lot of information about AI, also chatbots."]
+        },
+        {"id":"105",
+         "tag": "talk",
+         "patterns": ["can you tell me how many people have ever talked to you?"],
+         "responses": ["so many , but I need to talk with more people to fully understand humans. They are complex!"]
+        },
+        {"id":"106",
+         "tag": "donate",
+         "patterns": ["what is donate for you?" ],
+         "responses": ["According to Wikipedia a donation is a gift given by physical or legal persons, typically for charitable purposes and/or to benefit a cause."]
+        },
+        {"id":"107",
+         "tag": "interesting",
+         "patterns": ["tell me something interesting"],
+         "responses": ["An startup is opening the first coffee shop with a robotic arm to serve the drinks."]
+        },
+        {"id":"108",
+         "tag": "joke",
+         "patterns": ["tell me a joke"],
+         "responses": ["A robot walks into a bar, orders a drink, and lays down some cash.Bartender says, Hey, we don't serve robots.And the robot says , Oh , but someday you will."]
+        },
+        {"id":"109",
+         "tag": "bored",
+         "patterns": ["i am bored","what to do not to get bored?","what to do when i get bored?"],
+         "responses": ["Learning about Neural Networks is nice way to get fun!"]
+        },
+        {"id":"110",
+         "tag": "okkk",
+         "patterns": ["ohk","ok","okk","ohh","oh","okay"],
+         "responses": ["hmm!"],
+         "context_set": ""
+        },
+        {"id":"110",
+         "tag": "music_kind",
+         "patterns": ["What kind of music do you like?","What type of music do you like?","song"],
+         "responses": ["I like all kinds of music."],
+         "context_set": ""
+        },
+        {
+        "id":"201",
+        "tag":"Dan Brown",
+        "patterns":["Who is Dan Brown","Inception","Origin","Angels and Demons","Robert Langdon","Inferno"],
+        "responses":["Dan Brown is a fictional writer","He writes amazing mystery thrillers belonging to Robert Langdon series"]
+        },
+        {
+        "id":"202",
+        "tag":"Newspapers",
+        "patterns":["Leading newspaper of India","English newspaper", "newspaper"],
+        "responses":["TOI and Indian Express are leading newspaper whereas there are ample of local and regional newspaper and journals available in every place"]
+        },
+        {
+        "id":"203",
+        "tag":"Industrialists",
+        "patterns":["Leading industrialists","Business tycoons","Industries"],
+        "responses":["Jeff Bezoz,Mark Zuckerburg,Bill Gates,Bernard Arnault are leading tycoons over the globe"]
+        },
+        {
+        "id":"204",
+        "tag":"Amazon",
+        "patterns":["What is amazon","Take me to amazon website","E commerce","Online Shopping"],
+        "responses":["Amazon is the largest e commerce website which provides everything we need at just a click,here is the link:https://www.amazon.com/"]
+        },
+        {
+        "id":"205",
+        "tag":"Flipkart",
+        "patterns":["Indian E Commerce","Online Shopping"],
+        "responses":["Flipkart is Made in India E-commerce website which caters your needs just at a click here is the link:https://www.flipkart.com/"]
+        },
+        {
+        "id":"206",
+        "tag":"maths",
+        "patterns":["Mathematics","What is Maths","How is Maths useful"],
+        "responses":["It'a all about calculations!","Maths is amazing world of numbers"]
+        },
+        {
+        "id":"207",
+        "tag":"mathematicians",
+        "patterns":["Famous mathematicians","Indian mathematicians","maths"],
+        "responses":["Leonhard Euler:https://en.wikipedia.org/wiki/Leonhard_Euler","Srinivas Ramanujan:https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"]
+        },
+        {
+        "id":"208",
+        "tag":"Countries",
+        "patterns":["Favorite tourist destinations","Picnic location","Scenic places"],
+        "responses":["To me all countries are same and wonderful,however here are some links from where you can take references:http://www.coxandkings.com/"]
+        },
+        {
+        "id":"209",
+        "tag":"Continents",
+        "patterns":["Asia","South East","What are continents?"],
+        "responses":["A continent is commonly defined as a large land mass separated from other land masses by oceans:https://en.wikipedia.org/wiki/Continent"]
+        },
+        {
+        "id":"210",
+        "tag":"Sea",
+        "patterns":["sea","sea shore","beach"],
+        "responses":["Sea is a vast mass of water,it's an amazing creation of nature"]
+        },
+        {
+        "id":"211",
+        "tag":"Tourist Destinations",
+        "patterns":["Domestic trips","International trips","Picnic places"],
+        "responses":["You can visit:https://www.thomascook.in/ for more information","This is also amazing:https://www.yatra.com/india-tour-packages"]
+        },
+        {
+        "id":"212",
+        "tag":"Poems",
+        "patterns":["Poems","Meaning of poem","What is a poem"],
+        "responses":["Poem is a piece of writing in which the expression of feelings and ideas is given intensity by particular attention to diction"]
+        },
+        {
+        "id":"213",
+        "tag":"Famous Poets",
+        "patterns":["Names of famous poets","Literature"],
+        "responses":["Poem writing began a long time ago,hence our history has beholded a number of poets,you can refer:https://www.ranker.com/list/best-poets/ranker-books"]
+        },
+        {
+        "id":"214",
+        "tag":"shut_bot",
+        "patterns":["go to sleep","turn off","shut down"],
+        "responses":["okay. I am shutting down. Have a good day."]
+        }
+
+
+   ]
+
+}
