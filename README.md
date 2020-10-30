@@ -4,9 +4,9 @@ K.I.D stand for Knowledge Integrated device :)
 
 Prerequisites: 
 You will have to download K.I.D. android app in your android device to communicate with K.I.D.
-[a link](https://github.com/user/repo/blob/branch/other_file.md)https://github.com/rahulvansh66/KID-Virtual_Assistant-Andoid-App)
-To use Home automation mode, You will have to run PI_board.py in Raspberry Pi.
-[a link](https://github.com/user/repo/blob/branch/other_file.md)https://github.com/rahulvansh66/PI-Board)
+[App link](https://github.com/rahulvansh66/KID-Virtual_Assistant-Andoid-App)
+To use Home automation mode, You will have to run pi_firebase_Speech.py in Raspberry Pi.
+[pi_firebase_Speech.py](https://github.com/rahulvansh66/PI-Board)
 To use Windows application mode & Smart Vision mode, you will have run this code in your windows machine.
 
 Android App provides 3 modes,
